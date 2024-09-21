@@ -12,6 +12,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "target": "es2015", // Add this line to set the target
+    "downlevelIteration": true, // Add this line to support iteration in lower targets
     "plugins": [
       {
         "name": "next"
